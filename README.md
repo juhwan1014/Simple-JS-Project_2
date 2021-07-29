@@ -5,7 +5,7 @@
 
 ## Try our app here:
 
-[K TOWN Ordering App - Group J](https://group-j-order-app.netlify.app)
+[K TOWN Ordering App - Group J](http://127.0.0.1:5500/index.html)
 
 ### About Us:
 - Russ Telen
