@@ -1,0 +1,56 @@
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+body ol{
+    margin-left: 50px;
+}
+
+#enter{
+    margin-left: 60px;
+}
+
+input{
+    margin-left: 160px;
+    
+}
+
+
+body h1{
+    height: 100px;
+}
+
+
+#firstline{
+    display: flex;
+   
+       
+    }
+    #secondline{
+        display: flex;
+           
+        }
+        
+    
+    #complete-btn{
+    margin-right: 20px;
+    }
+    
+    #button{
+        display: flex;
+        position: absolute;
+        left: 43%;
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+
+    .order-output{
+        margin-top: 200px;
+        text-align: center;
+    }
+
+.order-output p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

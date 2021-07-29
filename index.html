@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Order App</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1 style="font-weight: 349; font-family: sans-serif; font-size: 80px; text-align: center;  border-bottom: 1px gray solid; opacity: 0.5;">The K-Town Bar & Grill</h1>
+
+
+    <div id="firstline" style="color: gray; font-family: sans-serif;">
+    <div id="appetizer" style="margin-left: 45px;">
+        <p style="font-family: sans-serif; font-size: 18px; "> Please select one item from the Appetizer Menu</p>
+        <ol style="color: black; opacity: 0.7; padding-top: 15px; padding-bottom: 15px;">
+            <li class="appetizer-list">** No Selection ** $0.00</li>
+            <li class="appetizer-list">Deep Fried Calamari $7.50</li>
+            <li class="appetizer-list">Soup de Jour $4.99</li>
+            <li class="appetizer-list"> Garden Salad $3.99</li>
+            <li class="appetizer-list">Garlic Bread $4.50</li>
+        </ol>
+        <p id="enter" style="font-family: sans-serif; font-size: 18px; ">Please Enter your selection #</p>
+        <input type="text" class="order-no-1" value="1" style="width: 15px;">
+    </div>
+
+    <div id="entree" style="margin-left: 100px;">
+        <p style="font-family: sans-serif; font-size: 18px; ">Please select one item from the Entree Menu</p>
+        <ol style="color: black; opacity: 0.7; padding-top: 15px; padding-bottom: 15px;">
+            <li class="entree-list">** No Selection ** $0.00</li>
+            <li class="entree-list">Rib-Steak $15.95</li>
+            <li class="entree-list">Fetuccini Alfredo $11.25</li>
+            <li class="entree-list">Pan-Fried Sole $17.95</li>
+            <li class="entree-list">Mediterranean Platter $13.50</li>
+            <li class="entree-list">Vegetarian Lasagna $9.00</li>
+        </ol>
+        <p id="enter" style="font-family: sans-serif; font-size: 18px; ">Please Enter your selection #</p>
+        <input type="text" class="order-no-2" value="1" style="width: 15px;">
+    </div>
+    </div>
+
+
+
+
+ <div id="secondline" style="color: gray; font-family: sans-serif;">
+    <div id="dessert" style="margin-left: 45px; margin-top: 50px;" >
+        <p style="font-family: sans-serif; font-size: 18px; ">Please select one item from the Dessert Menu</p>
+        <ol style="color: black; opacity: 0.7; padding-top: 15px; padding-bottom: 15px;">
+            <li class="dessert-list">** No Selection ** $0.00</li>
+            <li class="dessert-list">Ice Cream Sundae $2.95</li>
+            <li class="dessert-list">Cheesecake $5.00</li>
+            <li class="dessert-list">Chocolate Truffle-Cake $6.00</li>
+            <li class="dessert-list">Raspberry Mousse $4.50</li>
+        </ol>
+        <p id="enter" style="font-family: sans-serif; font-size: 18px; ">Please Enter your selection #</p>
+        <input type="text" class="order-no-3" value="1" style="width: 15px;">
+    </div>
+
+    <div id="beverages" style="margin-left: 100px; margin-top: 50px;">
+        <p style="font-family: sans-serif; font-size: 18px; ">Please select one item from the Beverage Menu</p>
+        <ol style="color: black; opacity: 0.7; padding-top: 15px; padding-bottom: 15px;">
+            <li class="beverage-list">** No Selection ** $0.00</li>
+            <li class="beverage-list">Water $0.00</li>
+            <li class="beverage-list">Juice $2.00</li>
+            <li class="beverage-list">Pop $2.00</li>
+            <li class="beverage-list">Milk $2.00</li>
+            <li class="beverage-list">Coffee $1.75</li>
+            <li class="beverage-list">Tea $1.75</li>
+        </ol>
+        <p id="enter" style="font-family: sans-serif; font-size: 18px; ">Please Enter your selection #</p>
+        <input type="text" class="order-no-4" value="1" style="width: 15px;">
+    </div>
+    </div>
+
+    <div id="button">
+        <button id="complete-btn" style="color: white; background-color: gray; padding: 10px; border-radius: 5px;">Complete Order</button>
+        <button id="clear-btn" style="color: white; background-color: gray; padding: 10px; border-radius: 5px;">Clear Order</button>
+    </div>
+    
+
+    <div class="order-output" style="border-top: 1px gray solid; opacity: 0.5;">
+        <h3 id="output-title"></h3>
+        <p id="output-order-1"></p>
+        <p id="output-order-2"></p>
+        <p id="output-order-3"></p>
+        <p id="output-order-4"></p>
+        <h4 id="output-order-total"></h4>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
